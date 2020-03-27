@@ -30,12 +30,6 @@ class RingBuffer:
         # TODO: Your code here
         node = self.storage.head
 
-        # # list is empty
-        # if self.storage.length == 0:
-        #     return list_buffer_contents
-    
-        # else:
-            # while node exists
         while node is not None:
             list_buffer_contents.append(node.value)
             node = node.next
